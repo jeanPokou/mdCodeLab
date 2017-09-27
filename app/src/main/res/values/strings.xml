@@ -2,5 +2,7 @@
     <string name="app_name">mdCodeLab</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment_tile">Hello Tile blank fragment</string>
+    <string name="hello_blank_fragment_list">Hello List blank fragment</string>
+    <string name="hello_blank_fragment_card">Hello Card blank fragment</string>
 </resources>

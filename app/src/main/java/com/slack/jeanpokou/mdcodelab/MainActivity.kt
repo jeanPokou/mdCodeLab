@@ -22,9 +22,9 @@ class MainActivity : AppCompatActivity() {
 
         // Adding Tabs
         with(tabs) {
-            addTab(tabs.newTab().setText("Tab 1"))
-            addTab(tabs.newTab().setText("Tab 2"))
-            addTab(tabs.newTab().setText("Tab 3"))
+            addTab(tabs.newTab().setText("List"))
+            addTab(tabs.newTab().setText("Tile"))
+            addTab(tabs.newTab().setText("Card"))
             setupViewPager(viewpager)
         }
 
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         val adapter = Adapter(supportFragmentManager).apply {
             addFragment(ListContentFragment(), "List")
             addFragment(TileContentFragment(), "Tile")
-            addFragment(TileContentFragment(), "Card")
+            addFragment(CardContentFragment(), "Card")
         }
         viewPager.adapter = adapter
 
